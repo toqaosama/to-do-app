@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bs file -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- my file -->
+  <link rel="stylesheet" href="./css/main.css">
+  
+</head>
+
+<body>
+  <h1 class="text-primary display-3 b text-center">you can add any task</h1>
+  <div class="container col-md-6 text-center my-5">
+    <div class="card">
+      <div class="card-body">
+        <div class="form-group">
+          <label>Add task</label>
+          <input id="taskData" type="text" class="form-control">
+        </div>
+        <button id="btnAdd" class="btn btn-info btn-block btn-danger my-2">add new task</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-md-7">
+    <div class="card">
+      <div class="card-body">
+  <div id="noTask" class="alert alert-primary text-center">
+<h2>no Date added yet</h2>
+  </div>
+  <div id="tasks"> 
+
+  </div>
+      </div>
+    </div>
+  </div>
+  <!-- my file -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
